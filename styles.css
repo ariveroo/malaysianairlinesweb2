@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.leaders {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.leader-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.leader-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.leader-card:hover {
+    transform: scale(1.1);
+}
+
+.join-discord {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.discord-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background: #5865F2;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.discord-button:hover {
+    background: #404EED;
+}
